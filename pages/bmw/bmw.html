@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bmw.css">
+    <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+    <title>BMW</title>
+</head>
+<body>
+    <div id="top" class="zagolovok">
+        <h1> BMW </h1>
+    </div>
+
+    <div class="menu">
+        <a href="../mercedes/mercedes.html" class="first">Mercedes-Benz</a>
+        <a href="../Volkswagen/vw.html" class="first">Volkswagen</a>
+        <a href="../audi/audi.html" class="first">Audi</a>
+        <a href="#" class="first">BMW</a>
+        <a href="../Porsche/Porsche.html" class="first">Porsche</a>
+    </div>    
+                
+    <div class="menu2">
+        <a href="3er.html">BMW 3-Series</a><br>
+        <a href="5er.html">BMW 5-Series</a><br>
+        <a href="7er.html">BMW 7-Series</a><br>
+    </div>
+    
+    <div class="main">
+        <div class="maintext">
+             <p>
+                Фирма была основана Карлом Фридрихом Раппом в октябре 1916 года, официально промышленная компания BMW была зарегистрирована 20 июля 1917 года, но первоначально как производитель авиационных двигателей, Bayerische Flugzeug-Werke.
+                Округ Мюнхена — Milbertshofen был выбран потому, что он располагался близко от Flugmaschinenfabrik Густава Отто — немецкого производителя самолётов.
+
+             </p>
+             <p>
+                 С 1929 года бело-голубая круглая эмблема BMW, использующаяся и до сих пор, для удобства начинает трактоваться как самолётный винт на фоне голубого неба. Компания BMW утверждает, что белый и голубой цвета на логотипе взяты из флага Баварии.
+             </p>
+             <p>
+                В 1916 году компания подписывает контракт на производство двигателей V12 для Австро-Венгрии. Нуждаясь в дополнительном финансировании, Рапп получает поддержку Камилло Кастильони и Макса Фрица, компания воссоздаётся как Bayerische Motoren Werke GmbH.
+                Сверхрасширение послужило причиной трудностей, Рапп покинул компанию, и руководство компанией было принято австрийским промышленником Францем Йозефом Поппом в 1917 году, компания была названа BMW AG в 1918.
+             </p>
+             <p>
+
+             </p>
+        </div>
+    </div> 
+
+    <div class="btnup">
+            <a href="#top" onclick="slowScroll('#top')" class="btntext"> &uArr; </a>
+        </div>
+        
+        <script src="../../js/jquery-3.3.1.js" charset="utf-8"></script>
+            <script>
+                function slowScroll(id){
+                    var offset = 0;
+                        $('html,body').animate ({
+                            scrollTop: $(id).offset().top-offset
+                        },500);
+        
+                    }
+                </script>
+    
+    
+</body>
+</html>

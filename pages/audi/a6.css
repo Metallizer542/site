@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.menu2{
+    position: fixed;
+    right: 0;
+    left: 0;
+    width: 15%;
+    height: 300px;
+    color: white;
+    background: rgba(0, 0,0,0.32);
+    line-height: 50px;  
+}
+.menu{
+    color: white;
+    background: rgba(0, 0,0,0.32);
+    right: 0;
+    left: 0;
+    line-height: 50px;
+    text-align: center;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+a{
+    font-family: 'Prata', serif;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.menu2 a{
+    font-family: 'Prata', serif;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.menu2 a:hover{
+    color: rgb(0, 0, 0);
+}
+body{
+    height: 100vh;
+    background: url(../../images/audi/img/audis4.jpeg) center center/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    color: rgba(255,255,255,1);
+    font-family: 'Prata', serif;
+    text-align: center;
+    line-height: 100px;
+}
+h2{
+    color: rgb(0, 0, 0);
+    font-family: 'Prata', serif;
+    text-align: center;
+}
+
+.h1{
+    height: 100px;
+    color: white;
+}
+.maintext{
+    position: relative;
+    width: 70%;
+    height: 1500px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background: rgba(255, 254, 254, 0.6);
+    padding-top: 20%;
+}
+p{
+    font-family: 'Prata', serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    padding: 10px 10px;
+    text-indent: 40px;
+}
+.btnup{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: rgba(0, 0,0,0.32);
+    border-radius: 25px;
+}
+.btntext{ 
+    font-size: 13px;
+    text-align: center;
+    line-height: 50px;
+    color: rgba(255,255,255); 
+    font-family: 'Prata', serif;
+}
+.zagolovok{
+    height: 100px;
+    background: url(../../images/audi/img/audi.png);
+    background-repeat: no-repeat;
+    margin-bottom: 5px; 
+}
+h1{
+    height: 100px;
+    color: rgb(255,255,255);
+    font-family: 'Prata', serif;
+    text-align: center;
+    line-height: 100px;
+}
+.main{
+    background: url(../../images/audi/img/a2.png) center center;
+    background-repeat: no-repeat;
+}
+table{
+    width: 70%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: 'Prata', serif;
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+    font-family: 'Prata', serif;
+    padding: 3px;
+    background: rgba(0, 0,0,0.32);
+}
+td{
+    border: 1px solid black;
+    font-family: 'Prata', serif;
+    padding: 3px;
+}
+.images{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+.firstimage{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    background: url(../../images/audi/img/autowp.ru_audi_a6_6.jpeg) center center/contain;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+}
+.secondimage{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    background: url(../../images/audi/img/audi100.jpeg) center center/contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+.thirdimage{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    background: url(../../images/audi/img/autowp.ru_audi_100_1.jpeg) center center/contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+.fourthimage{
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    background: url(../../images/audi/img/audis4.jpeg) center center/contain;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+h2{
+    font-family: 'Prata', serif;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.btnup a{ 
+    text-align: center;
+    font-size: 35px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Prata', serif; 
+    margin-left: 15px;
+} 
+.btnup a:hover{
+    color: rgb(0, 0, 0);
+}
+.btnnext{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 0,0,0.32);
+    right: 52px;
+    bottom: 50px;
+    text-align: center;
+}
+.btnnext a{
+    text-align: center;
+    font-size: 13px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Prata', serif;  
+    font-size: 13px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Prata', serif; 
+    margin: 0 auto;
+}
+.btnnext a:before{
+    width: 0;
+    height: 0%;
+    content: "";
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -2;
+    right: 0;
+    margin: auto;
+    transition: 0.5s all;
+}
+.btnnext a:hover:before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -2px;
+    right: 0;
+    margin: auto;
+}
+.btnnext a:hover{
+    color: rgb(0, 0, 0);
+}
+.btnpre{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(0, 0,0,0.32);
+    left: 52px;
+    bottom: 50px;
+    text-align: center;
+}
+.btnpre a{
+    font-size: 10px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Prata', serif;  
+    font-size: 13px;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Prata', serif; 
+    margin: 0 auto;
+    
+}
+.btnpre a:before{
+    width: 0;
+    height: 0%;
+    content: "";
+    border: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -2;
+    right: 0;
+    margin: auto;
+    transition: 0.5s all;
+}
+.btnpre a:hover:before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -2px;
+    right: 0;
+    margin: auto;
+}
+.btnpre a:hover{
+    color: rgb(0, 0, 0);
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vw.css">
+    <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+    <title>Volkswagen</title>
+</head>
+<body>
+    <div id="top" class="zagolovok">
+        <h1> Volkswagen </h1>
+                
+    </div>
+
+    <div  class="menu">
+        <a href="../mercedes/mercedes.html" class="first">Mercedes-Benz</a>
+        <a href="#" class="first">Volkswagen</a>
+        <a href="../audi/audi.html" class="first">Audi</a>
+        <a href="../bmw/bmw.html" class="first">BMW</a>
+        <a href="../Porsche/Porsche.html" class="first">Porsche</a>
+    </div>
+            
+    <div  class="menu2">
+        <a href="golf.html">Volkswagen Golf</a><br>
+        <a href="corrado.html">Volkswagen Corrado</a><br>
+        <a href="passat.html">Volkswagen Passat</a><br>
+    </div>
+
+    <div class="main">
+        <div class="maintext">
+            <p>
+                История концерна «Volkswagen» началась осенью 1933 года в одном из залов отеля «Кайзерхоф» (нем. Kaiserhof) в Берлине.
+                Собеседников было трое: Адольф Гитлер (нем. Adolf Hitler), Якоб Верлин (нем. Jacob Werlin), представитель «Daimler-Benz» и Фердинанд Порше (нем. Ferdinand Porsche).
+                Гитлер выдвинул требование: создать для немецкого народа крепкий и надёжный автомобиль стоимостью не более 1000 рейхсмарок. Также, автомобиль должен был собираться и на новом, олицетворяющем новую Германию, заводе.
+                На листке бумаги Гитлер набросал эскиз, обозначил основные пункты программы и попросил назвать имя конструктора, кто будет нести ответственность за исполнение правительственного заказа. Якоб Верлин предложил кандидатуру Фердинанда Порше. Будущий автомобиль так и назвали — «Volks-Wagen» («народный автомобиль»).
+            </p>
+            <p>
+                26 мая 1938 года был заложен первый камень на строительстве завода Volkswagen рядом с городом Фаллерслебен. В церемониальной речи Гитлер озвучивает имя будущего «народного автомобиля» — KdF-Wagen, названного в честь KdF (Kraft durch Freude) — нацистской общественной организации, вложившей порядка 50 млн рейхсмарок в строительство завода.
+                В том же году было начато строительство городка для проживания работавших на заводе Volkswagen — Stadt des KdF-Wagens. Название в 1945 году изменили на Вольфсбург (по имени находившегося по соседству замка Вольфсбург).
+            </p>
+            <p>
+                После окончания войны предприятие попало под контроль англичан, в чьей зоне оккупации находился Вольфсбург. Осенью 1945 года английские власти передали заводу заказ на 20 тыс. автомобилей. Но только почти через десять лет началось серийное производство автомобиля в его первоначальной модификации. В 1947 году Volkswagen был выставлен на экспортной ярмарке в Ганновере и привлек к себе большое внимание. Завод получил первый зарубежный заказ из Голландии на тысячу автомобилей, а в 1948 году стали поступать заказы из Швейцарии, Бельгии, Швеции и других стран.
+            </p>
+        </div>
+    </div> 
+
+    <div class="btnup">
+        <a href="#top" onclick="slowScroll('#top')" class="btntext"> &uArr; </a>
+    </div>
+    
+    <script src="../../js/jquery-3.3.1.js" charset="utf-8"></script>
+        <script>
+            function slowScroll(id){
+                var offset = 0;
+                    $('html,body').animate ({
+                        scrollTop: $(id).offset().top-offset
+                    },500);
+    
+                }
+            </script>
+    
+</body>
+</html>

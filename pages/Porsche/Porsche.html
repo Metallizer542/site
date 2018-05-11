@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="porsche.css">
+    <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+    <title>Porsche</title>
+</head>
+<body>
+    <div id="top" class="zagolovok">
+        <h1>Porsche</h1>          
+    </div>
+
+    <div  class="menu">
+        <a href="../mercedes/mercedes.html" class="first">Mercedes-Benz</a>
+        <a href="../Volkswagen/vw.html" class="first">Volkswagen</a>
+        <a href="../audi/audi.html" class="first">Audi</a>
+        <a href="../bmw/bmw.html" class="first">BMW</a>
+        <a href="#" class="first">Porsche</a>
+    </div>
+
+    <div  class="menu2">
+        <a href="996.html">Porsche 911</a><br>
+        <a href="959.html">Porsche 959</a><br>
+        <a href="boxter.html">Porsche Boxter</a><br>
+    </div>
+
+    <div class="main">
+         <div class="maintext">
+            <p>
+                К моменту выпуска первого автомобиля под своим именем Фердинанд Порше успел накопить немалый опыт.
+                Основанное им 25 апреля 1931 года предприятие Dr. Ing. h.c. F. Porsche GmbH под его началом уже успело поработать над такими проектами, как 6-цилиндровый гоночный Auto Union и Volkswagen Käfer, ставший одним из самых продаваемых автомобилей в истории.
+                В 1939 году был разработан первый автомобиль компании — Porsche 64, который стал прародителем всех будущих Porsche. Для постройки этого экземпляра Фердинанд Порше использовал многие компоненты от Volkswagen Käfer.
+            </p>
+            <p>
+                В течение Второй Мировой компания занималась выпуском военной продукции — штабных автомобилей и амфибий. Фердинанд Порше принимал участие в разработке немецких тяжёлых танков «Тигр P», а также сверхтяжёлого танка «Маус».
+            </p>
+            <p>
+                В декабре 1945 года он был арестован по обвинению в военных преступлениях и помещён в тюрьму, где провёл 20 месяцев.
+                В то же время его сын Фердинанд (краткое имя Ферри) Антон Эрнст решил начать выпуск собственных автомобилей. В Гмюнде Ферри Порше вместе с несколькими знакомыми инженерами собрал прототип 356-го с мотором в базе и алюминиевым открытым кузовом и начал подготовку к его серийному производству.
+                В июне 1948 года этот экземпляр был сертифицирован для дорог общего пользования.
+                Как и 9 лет назад, тут вновь были использованы агрегаты от Volkswagen Käfer, включая 4-цилиндровый мотор воздушного охлаждения, подвеску и коробку передач. У первых серийных машин было принципиальное отличие — двигатель перенесли за заднюю ось, что позволило удешевить производство и освободить пространство для двух дополнительных мест в салоне. Спроектированный кузов обладал очень хорошей аэродинамикой — Cx равнялся 0,29. В 1950 году компания вернулась в Штутгарт.
+            </p>
+        </div>
+    </div> 
+    
+    <div class="btnup">
+            <a href="#top" onclick="slowScroll('#top')" class="btntext"> &uArr; </a>
+        </div>
+        
+        <script src="../../js/jquery-3.3.1.js" charset="utf-8"></script>
+            <script>
+                function slowScroll(id){
+                    var offset = 0;
+                        $('html,body').animate ({
+                            scrollTop: $(id).offset().top-offset
+                        },500);
+        
+                    }
+                </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mercedes.css">
+    <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+    <title>Mercedes</title>
+</head>
+<body>
+    <div id="top" class="zagolovok">
+        <h1> Mercedes-Benz</h1>
+    </div>
+
+    <div class="menu">
+        <a href="#" class="first">Mercedes-Benz</a>
+        <a href="../Volkswagen/vw.html" class="first">Volkswagen</a>
+        <a href="../audi/audi.html" class="first">Audi</a>
+        <a href="../bmw/bmw.html" class="first">BMW</a>
+        <a href="../Porsche/Porsche.html" class="first">Porsche</a>
+
+    <div class="menu2">
+        <a href="w202.html">Mercedes-Benz C-Class</a><br>
+        <a href="w124.html">Mercedes-Benz E-Class</a><br>
+        <a href="w140.html">Mercedes-Benz S-Class</a><br>
+    </div>
+    
+    <div class="top">
+        <div class="logo"></div>
+    </div>
+
+    <div class="main">
+        <div class="maintext">
+                <p>
+                    История марки Mercedes-Benz слагается из историй двух известных немецких автомобильных компаний — Benz & Cie. (основана Карлом Бенцем в 1883 году) и Daimler-Motoren-Gesellschaft (основана Готлибом Даймлером в 1890 году).
+                    Обе компании развивались самостоятельно до 1926 года, когда они объединились в единый концерн Daimler-Benz, впоследствии переименованный в Daimler AG.
+
+                </p>
+                <p>
+                    Во время Второй мировой войны концерн Daimler-Benz выпускал как грузовики, так и легковые автомобили различных классов. Однако двухнедельная воздушная бомбардировка англо-американскими ВВС в сентябре 1944-го года превратили Daimler-Benz Aktiengesellschaft в руины.
+                    Разрушение крупного концерна оценивались по-разному: главный цех в Штутгарте был разрушен на 70 %, двигательный и кузовный цеха в Зинделфингене — 85 %, цех грузовиков в Гаггенау был полностью уничтожен. Бывшей фабрике Benz & Cie. в Маннгейме повезло больше всех — всего 20 % разрушения, а завод дизельных двигателей Berlin-Marienfelde, приобретённый в 1902, полностью сравняли с землёй.
+                    Когда оценки разрушения были готовы к январю 1945-го года, совет директоров постановил, что «Daimler-Benz физически больше не существует»
+
+                </p>
+                <p>
+                    На послевоенное восстановление разрушенных заводов потребовалось время, поэтому автомобильное производство было начато только в июне 1946 года. Для разработки новых автомобилей не было ни технической базы, ни средств, поэтому первым послевоенным автомобилем стал седан W136 — «170V».
+                    Хотя конструкция была разработана ещё в середине 1930-х годов, малолитражный автомобиль с мотором всего 38 лошадиных сил стал началом новой истории марки. Уже с мая 1949 года была проведена крупная модернизация. Рабочий объём двигателя увеличен на 70 см3, (соответственно мощность выросла до 52 л. с.; модель «170S»), появились варианты в кузовах кабриолет и универсал (т. н. кабриолеты «А» и «B») и главное — модели с дизельными двигателями «170D».
+                </p>
+                <p>
+                        Всего за девять лет (выпуск завершился в сентябре 1955 года) построено соответственно 151 042 и 18 514 автомобилей «170» и «220». Благодаря им компания смогла создать прочный фундамент, на котором она станет ведущим автомобильным производителем в Западной Европе.
+                </p>
+        </div>
+    </div> 
+    
+    <div class="btnup">
+        <a href="#top" onclick="slowScroll('#top')" class="btntext"> &uArr; </a>
+    </div>
+    
+    <script src="../../js/jquery-3.3.1.js" charset="utf-8"></script>
+        <script>
+            function slowScroll(id){
+                var offset = 0;
+                    $('html,body').animate ({
+                        scrollTop: $(id).offset().top-offset
+                    },500);
+    
+                }
+            </script>
+    
+</body>
+</html>

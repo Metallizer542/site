@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="maincss.css">
+    <link href="https://fonts.googleapis.com/css?family=Prata" rel="stylesheet">
+    <title>Немецкие автомобили 90-х</title>
+</head>
+<body>
+    <div id="top" class="h1">
+        <h1> Немецкие автомобили 90-х </h1>     
+    </div>
+
+    <div class="main" id="main">
+        <div class="imgban" id="imgban3"></div>
+        <div class="imgban" id="imgban2"></div>
+        <div class="imgban" id="imgban1"></div>
+    </div>
+
+    <div  class="menu">
+        <a target="blank" href="pages/mercedes/mercedes.html">Mercedes-Benz</a>
+        <a target="blank" href="pages/Volkswagen/vw.html">Volkswagen</a>
+        <a target="blank" href="pages/audi/audi.html">Audi</a>
+        <a target="blank" href="pages/bmw/bmw.html">BMW</a>
+        <a target="blank" href="pages/Porsche/Porsche.html">Porsche</a>
+    </div>
+
+    <div class="btnkont">
+        <a href="pages/kont.html">Контакты</a>
+    </div>
+
+    <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+        <script>
+            function slowScroll(id){
+                var offset = 0;
+                $('html,body').animate ({
+                    scrollTop: $(id).offset().top-offset
+                },500);
+
+            }
+        </script>
+
+    <script src="js/mainrotate.js"></script>
+
+</body>
+</html>
